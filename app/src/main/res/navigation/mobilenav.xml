@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobilenav"
+    app:startDestination="@+id/home">
+
+    <fragment android:id="@+id/home"
+        android:name="com.example.navigationbtm.ui.home.homeview"
+        android:label="Home"
+        tools:layout="@layout/fragment_homeview"/>
+
+
+    <fragment android:id="@+id/faculty"
+        android:name="com.example.navigationbtm.ui.faculty.facultyview"
+        android:label="Home"
+        tools:layout="@layout/fragment_facultyview"/>
+    <fragment android:id="@+id/newfeed"
+        android:name="com.example.navigationbtm.ui.news.newsview"
+        android:label="Home"
+        tools:layout="@layout/fragment_newsview"/>
+    <fragment android:id="@+id/gallery"
+        android:name="com.example.navigationbtm.ui.gallery.galleryview"
+        android:label="Home"
+        tools:layout="@layout/fragment_galleryview"/>
+    <fragment android:id="@+id/about"
+        android:name="com.example.navigationbtm.ui.about.aboutview"
+        android:label="Home"
+        tools:layout="@layout/fragment_aboutview"/>
+
+</navigation>

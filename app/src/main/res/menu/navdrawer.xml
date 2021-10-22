@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <item android:id="@+id/navigation_video"
+     android:title="Video Lectures"
+     android:icon="@drawable/selectvideo"/>
+   <item android:id="@+id/navigation_visit"
+       android:title="Visit Us"
+       android:icon="@drawable/visit"/>
+    <item android:id="@+id/navigation_documents"
+        android:title="Documents"
+        android:icon="@drawable/documents"/>
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/website"/>
+ <item android:id="@+id/navigation_theme"
+     android:title="Theme"
+     android:icon="@drawable/theme"/>
+ <item android:id="@+id/navigation_developer"
+     android:title="Sign Out"
+     android:icon="@drawable/group"/>
+
+</menu>

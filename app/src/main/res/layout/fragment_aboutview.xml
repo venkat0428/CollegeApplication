@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.aboutview">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="220dp"
+           android:scaleType="fitXY"
+           android:id="@+id/imageCollege"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/AboutCollege"
+           android:layout_marginTop="15dp"
+           android:layout_marginHorizontal="10dp"
+           android:textSize="15dp"
+           android:layout_gravity="center_horizontal"
+           android:fontFamily="serif"/>
+
+      <LinearLayout
+          android:layout_width="350dp"
+          android:layout_height="250dp"
+          android:layout_gravity="center"
+          android:orientation="vertical">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Department"
+              android:layout_marginTop="10dp"
+              android:layout_marginHorizontal="10dp"
+              android:textSize="20dp"
+              android:layout_gravity="center_horizontal"
+              android:fontFamily="serif"/>
+
+          <androidx.viewpager.widget.ViewPager
+              android:layout_width="300dp"
+              android:layout_height="200dp"
+              android:layout_marginTop="15dp"
+              android:layout_gravity="center"
+              android:foregroundGravity="center"
+              android:clipToPadding="false"
+              android:overScrollMode="never"
+              android:id="@+id/viewPager"/>
+      </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="350dp"
+           android:layout_height="350dp"
+           android:layout_gravity="center"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Contact Us"
+               android:layout_marginTop="18dp"
+               android:layout_marginHorizontal="10dp"
+               android:textSize="20dp"
+               android:layout_gravity="center_horizontal"
+               android:fontFamily="serif"/>
+           <LinearLayout
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="15dp"
+               android:layout_gravity="center_horizontal"
+               android:orientation="horizontal"
+               >
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/loc"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Location"
+                   android:layout_marginHorizontal="10dp"
+                   android:textSize="15sp"
+                   android:layout_gravity="center_horizontal"
+                   android:textStyle="bold"
+                   android:fontFamily="serif"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_gravity="center_horizontal"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Yamnampet, Ghatkesar Hyderabad - 501 301
+Telangana, India."/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginTop="15dp"
+               android:orientation="horizontal"
+               >
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/call"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Phone"
+                   android:layout_marginHorizontal="10dp"
+                   android:textSize="15sp"
+                   android:layout_gravity="center_horizontal"
+                   android:textStyle="bold"
+                   android:fontFamily="serif"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="100dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_gravity="center_horizontal"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="+91 1234567890         +91 0987654321"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginTop="15dp"
+               android:orientation="horizontal"
+               >
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/mail"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="E-Mail"
+                   android:layout_marginHorizontal="10dp"
+                   android:textSize="15sp"
+                   android:layout_gravity="center_horizontal"
+                   android:textStyle="bold"
+                   android:fontFamily="serif"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="200dp"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               android:layout_gravity="center"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="examplemail@college.edu.in"/>
+           </LinearLayout>
+
+
+           </LinearLayout>
+   </LinearLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>

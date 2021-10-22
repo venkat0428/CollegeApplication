@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">College connect</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="AboutCollege">Sreenidhi Institute of Science and Technology – Hyderabad Sponsored by Sree Education Group was established in the year 1997 by the Chairman, Dr. K.T. Mahhe, an extraordinary educationist, a pragmatic leader and a dynamic entrepreneur with a rich experience in Academics and Industry. He has a proven history of achievements, awards and recognition to his credit. He is an outstanding personality devoted to the cause of providing high quality technical and scientific literacy to urban and rural students of Telangana, Andhra Pradesh and all other states alike.  Highly qualified faculty, flexible and dynamic curriculum, exciting research and global connections are the features that set SNIST ahead of the rest.</string>
+    <string name="cse">To prepare Computer Science and Engineering graduates to be a lifelong learner with competence in basic science and engineering and professional core,  multidisciplinary areas,  with continuous update  of the syllabus,  so that they can succeed in industry as an individual and as a team or to pursue higher studies or to become an entrepreneur.</string>
+    <string name="civil">To prepare and provide conductive environment for Civil Engineering graduates to become competent and quick learners of the latest emerging technologies on the engineering horizon.</string>
+    <string name="mech">To provide good academic environment for pursuing high quality undergraduate, Post graduate and Doctoral programmes in mechanical engineering that will prepare our graduates for outstanding professional careers.</string>
+    <string name="ece">To create an educational environment for students to excel in their professional carrier, and to solve the challenges of industry in the field of Electronics and Communication Engineering with focus on human values, professional ethics and social responsibility.</string>
+    <string name="eee">To empower the students and provide the academic environment to pursue and attain competenciesin their studies at undergraduate, post graduate and doctoral levels in Electrical and Electronics Engineering.</string>
+    <string name="it">To be committed in providing quality education in professional core and multidisplinary areas with continuous upgradation and to prepare IT graduates succeed in industry as an individual and as a team.</string>
+    <string name="start_session_activity">Start Session Activity</string>
+    <string-array name="Theme">
+        <item>System default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+</resources>
